@@ -1,37 +1,14 @@
-# AI-Enabled Smart Medication Reminder and Digital 
-Twin Synchronization
+# AI-Enabled Smart Medication Reminder & Digital 
+# Twin Synchronization
 
 An embedded, closed-loop medication management system built on the **NXP FRDM-K66F** that reminds, dispenses, verifies intake, and adapts — synchronized in real time to a web-based digital twin.
 ---
 ## Overview
 
 Traditional reminder systems notify but cannot verify. This system closes the loop — a pill is scheduled, dispensed by servo, sensed by a load cell, and the result drives both local behavior and a live remote dashboard. No manual confirmation required.
-
-```
-┌──────────────────────────────────────────────────────┐
-│              FRDM-K66F  (FreeRTOS)                   │
-│                                                      │
-│   ReminderTask ──► RiskScoring ──► DispenseVerify    │
-│         │               │               │            │
-│         └───────────────▼───────────────┘            │
-│                   State Machine                      │
-│          IDLE → PREALERT → REMINDING                 │
-│                    → POST_TIMEOUT_VERIFY             │
-│                         │  lwIP / HTTP               │
-└─────────────────────────┼────────────────────────────┘
-                          │
-              ┌───────────▼────────────┐
-              │  Flask Server + SQLite │
-              └───────────┬────────────┘
-                          │
-              ┌───────────▼────────────┐
-              │  Digital Twin Dashboard│
-              └────────────────────────┘
-```
-
-> 📷 *[System architecture photo placeholder]*
-> 📷 *[Physical hardware setup photo placeholder]*
-
+---
+![image alt]()
+![image alt]()
 ---
 ##  Hardware
 
@@ -88,7 +65,7 @@ Supports remote commands:
 - SNOOZE
 - DISPENSE
 - TAKEN
-
+![image alt]()
 > 📷 *[Dashboard screenshot placeholder]*
 
 ###  Dual Logging & Reboot Recovery
@@ -122,12 +99,12 @@ Socket creation failures use an **exponential backoff retry loop** to handle tra
 
 ## State Machine
 
-
+![image alt]()
 > 📷 *[State machine diagram placeholder]*
 
 ---
 
-## 🖥️ Server
+## Server
 
 - **Python Flask** backend with REST API
 - **SQLite** database for event and risk history
@@ -137,7 +114,7 @@ Socket creation failures use an **exponential backoff retry loop** to handle tra
 ---
 
 
-## 🔗 References
+## References
 
 [1] WHO, *Adherence to Long-Term Therapies*, 2003. [Link](https://www.paho.org/sites/default/files/WHO-Adherence-Long-Term-Therapies-Eng-2003.pdf)  
 [2] Brown & Bussell, *Medication Adherence: WHO Cares?*, Mayo Clinic Proc., 2011. [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC3068890/)  
