@@ -31,5 +31,6 @@ __pycache__/
 *.pyc
 .env
 
-# Node (if any)
-node_modules/
+venv/
+Server/venv/
+
