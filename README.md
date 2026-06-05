@@ -1,12 +1,11 @@
 # AI Smart Medication Reminder & Digital Twin Synchronization
+--- 
+- An embedded, closed-loop medication management system built on the **NXP FRDM-K66F** that reminds, dispenses, verifies intake, and adapts — synchronized in real time to a web-based digital twin.
+- Traditional reminder systems notify but cannot verify. This system closes the loop — a pill is scheduled, dispensed by servo, sensed by a load cell, and the result drives both local behavior and a live remote dashboard. No manual confirmation required.
 
-An embedded, closed-loop medication management system built on the **NXP FRDM-K66F** that reminds, dispenses, verifies intake, and adapts — synchronized in real time to a web-based digital twin.
----
-## Overview
-Traditional reminder systems notify but cannot verify. This system closes the loop — a pill is scheduled, dispensed by servo, sensed by a load cell, and the result drives both local behavior and a live remote dashboard. No manual confirmation required.
 ---
 ## Architechture
-![image alt]()
+![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/03895f864b36bc311612d45342d0c0c16619f879/System%20Flow%20Diagram.png)
 ![image alt]()
 ---
 ##  Hardware
