@@ -63,6 +63,7 @@ Supports remote commands:
 - SNOOZE
 - DISPENSE
 - TAKEN
+---
 ![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/c786eecc75afcd595d81fa1754fa86c1cd8fbe6d/Digital%20Twin%20Dashboard%20Implementation.png)
 
 ###  Dual Logging & Reboot Recovery
