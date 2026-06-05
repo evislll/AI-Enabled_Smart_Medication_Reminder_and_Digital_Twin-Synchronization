@@ -1,1 +1,2 @@
-# AI-Enabled_Medication_Reminder_and_Digital_Twin_Synchronization
+# AI-Enabled_Medication_Reminder
+# with Digital_Twin_Synchronization
