@@ -1,0 +1,35 @@
+# Build folders
+build/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.settings/
+.metadata/
+
+# Logs
+*.log
+
+# Object / binary files
+*.o
+*.elf
+*.axf
+*.bin
+*.map
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (server side)
+__pycache__/
+*.pyc
+.env
+
+# Node (if any)
+node_modules/
