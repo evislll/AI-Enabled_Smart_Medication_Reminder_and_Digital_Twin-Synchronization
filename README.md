@@ -108,7 +108,7 @@ Socket creation failures use an **exponential backoff retry loop** to handle tra
 - **SQLite** database for event and risk history
 - **Digital Twin dashboard** — live MCU state + remote control (ACK / SNOOZE / DISPENSE / TAKEN)
 - Simulation mode: inject artificial weight values for integration testing
-
+![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/be7d5d2fcc266f9f86f1e44b8b8f88e690776ad6/diagram.png)
 ---
 
 
