@@ -38,6 +38,7 @@ Each medication maintains a dynamic risk score updated after every event — mis
 
 Risk state is refreshed **before** applying any policy, ensuring decisions always reflect the latest data rather than stale cached values.
 ![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/2dfdd91c1c8ae4b3d87bd8c1e642eb7154c5bb8d/Individual%20Medication%20Risk%20Line%20Chart.png)
+![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/6a51bfd13e6b88a80d4e863613bb0903d3bff068/diagram.jpg)
 ### Closed-Loop Dispense Verification
 The servo dispenses only after the load cell records a stable pre-dispense baseline. After actuation, the weight delta is compared against a threshold. Success and failure are both logged locally and posted to the server — no assumption is made about whether a pill was dispensed.
 
