@@ -96,8 +96,7 @@ Socket creation failures use an **exponential backoff retry loop** to handle tra
 
 ## State Machine
 
-![image alt]()
-> 📷 *[State machine diagram placeholder]*
+![image alt](https://github.com/evislll/AI-Enabled_Smart_Medication_Reminder_and_Digital_Twin-Synchronization/blob/57cc563b1ca84aa47d2135a26607574b3002b4b6/State%20Control.png)
 
 ---
 
